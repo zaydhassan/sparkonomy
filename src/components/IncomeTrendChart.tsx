@@ -5,6 +5,7 @@ import {
   LinearScale,
   BarElement,
   PointElement,
+   BarController,
   LineElement,
   LineController,
 } from 'chart.js';
@@ -15,6 +16,7 @@ ChartJS.register(
   LinearScale,
   BarElement,
   PointElement,
+   BarController,
   LineElement,
   LineController
 );
