@@ -1,6 +1,7 @@
 import InvoiceCard from './InvoiceCard';
+import type { Status } from './InvoiceCard';
 
-const INVOICES = [
+const INVOICES: { title: string; amount: string; dueDate: string; status: Status }[] = [
   { title: 'Client Name', amount: '₹1,25,000', dueDate: '2024-06-15', status: 'Unpaid' },
   { title: 'Income Trend', amount: '₹1,25,000', dueDate: '2024-06-15', status: 'Disputed' },
   { title: 'Income Trend', amount: '₹1,25,000', dueDate: '2024-06-15', status: 'Paid' },
